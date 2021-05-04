@@ -29,7 +29,7 @@ from models.research.object_detection.utils import visualization_utils as vis_ut
 
 # Defining test configuration
 
-test = False
+test = True
 
 # Defining risk density option and parameters
 
