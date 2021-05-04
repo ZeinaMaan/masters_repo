@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train Images</folder>
+	<filename>28.jpg</filename>
+	<path>C:\Users\sarma\Desktop\Train Images\28.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Agent</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>463</xmin>
+			<ymin>7</ymin>
+			<xmax>515</xmax>
+			<ymax>67</ymax>
+		</bndbox>
+	</object>
+</annotation>
