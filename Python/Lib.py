@@ -77,12 +77,16 @@ class Voronoi:
 
         return [C_x, C_y]
 
+    def sensing(self, dis):
+        sense = np.exp(-(dis**2)/(30**2))
+        return sense
+
     def coverage_metric(self, agent_pos, vor, index, risk_den):
         coverage = 0
 
         for i in range(len(vor)):
             dis = self.get_distance(agent_pos, vor[i])
-            coverage += risk_den[index[i][1]][index[i][0]]*dis
+            coverage += risk_den[index[i][1]][index[i][0]]*self.sensing(dis)
 
         return coverage
 
